@@ -12,6 +12,21 @@ def divide(x, y):
         return x / y
     else:
         return "Error! Division by zero."
+def exp(x,y):
+    if y == 0  or x==1:
+        return 1
+    else:
+        return x**y
+def mod(x,y):
+    if y != 0:
+        return x % y
+    else:
+        return "Error! Division by zero."
+def floord(x,y):
+    if y != 0:
+        return x // y
+    else:
+        return "Error! Division by zero."
 
 def calculator():
     print("Select operation:")
@@ -19,11 +34,14 @@ def calculator():
     print("2. Subtract")
     print("3. Multiply")
     print("4. Divide")
+    print("5. Exponential (first enter the number then power)")
+    print("6. Modulas divison(gives remainder)")
+    print("7. Floor division")
 
     while True:
-        choice = input("Enter choice (1/2/3/4): ")
+        choice = input("Enter choice (1/2/3/4/5/6/7): ")
 
-        if choice in ['1', '2', '3', '4']:
+        if choice in ['1', '2', '3', '4','5','6','7']:
             try:
                 num1 = float(input("Enter first number: "))
                 num2 = float(input("Enter second number: "))
@@ -39,6 +57,12 @@ def calculator():
                 print(f"{num1} * {num2} = {multiply(num1, num2)}")
             elif choice == '4':
                 print(f"{num1} / {num2} = {divide(num1, num2)}")
+            elif choice == '5':
+                print(f"{num1} ^ {num2} = {exp(num1, num2)}")
+            elif choice == '6':
+                print(f"{num1} % {num2} = {mod(num1, num2)}")
+            elif choice == '7':
+                print(f"{num1} // {num2} = {floord(num1, num2)}")
         else:
             print("Invalid choice! Please select a valid operation.")
 
