@@ -1,9 +1,4 @@
-# CODSOFT
-Here’s a version of your README file that matches the style and tone you're aiming for:
-
----
-
-# Welcome to My Internship Journey at CodSoft! 🚀
+# Excited to share my CodSoft internship projects!
 
 This repository is dedicated to the projects I’ve worked on during my internship at **CodSoft**. My focus is on enhancing my Python programming skills through diverse, hands-on projects. Each one tackles different aspects of Python development, offering me a comprehensive learning experience.
 
