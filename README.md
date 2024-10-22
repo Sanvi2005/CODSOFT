@@ -29,7 +29,7 @@ An application designed to store and manage contact details efficiently. Users c
 - Search and sort functionality
 - A clean, intuitive interface
 
-## Conclusion
+## 
 Through these projects, I’m deepening my understanding of Python programming and gaining practical experience in software design. Each project is a stepping stone towards mastering different aspects of coding. Stay tuned for updates as I continue to grow during my CodSoft internship!
 
 Thank you for visiting my repository. Feel free to explore the projects and provide feedback!
